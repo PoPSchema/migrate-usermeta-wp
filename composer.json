@@ -6,7 +6,7 @@
         "PoP",
         "usermeta-wp"
     ],
-    "homepage": "https://github.com/getpop/migrate-usermeta-wp",
+    "homepage": "https://github.com/PoPSchema/migrate-usermeta-wp",
     "license": "MIT",
     "authors": [
         {
