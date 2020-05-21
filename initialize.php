@@ -11,12 +11,12 @@ $class = (new class() extends \PoP\Root\Component\AbstractComponent
      *
      * @return void
      */
-    public static function beforeBoot()
+    public static function beforeBoot(): void
     {
         parent::beforeBoot();
 
         // Initialize code
-        require_once 'migrate/pop-usermeta-wp.php';  
+        require_once 'migrate/pop-usermeta-wp.php';
     }
 });
 $class::initialize();
