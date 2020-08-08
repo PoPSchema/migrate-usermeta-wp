@@ -1,7 +1,7 @@
 <?php
-namespace PoP\UserMeta\WP;
+namespace PoPSchema\UserMeta\WP;
 
-class FunctionAPI extends \PoP\UserMeta\FunctionAPI_Base
+class FunctionAPI extends \PoPSchema\UserMeta\FunctionAPI_Base
 {
     public function getUserMeta($user_id, $key, $single = false)
     {
